@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { TitleComponent } from "./title/title.component";
 
 @Component({
@@ -9,5 +9,8 @@ import { TitleComponent } from "./title/title.component";
   styleUrl: './card.component.css'
 })
 export class CardComponent {
-
+  @Input()
+  cardCover:string = ""
+  @Input()
+  cardTitle:string = ""
 }
