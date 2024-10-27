@@ -1,0 +1,9 @@
+.info__container {
+  height: 60px;
+  min-width: 200px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}

@@ -1,0 +1,22 @@
+.home__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+}
+
+.home__navbar {
+  width: 100%;
+  height: 100px;
+}
+
+.home__content {
+  width: 100%;
+  height: 350px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;;
+  gap: 20px;
+  margin-bottom: 30px;
+}
